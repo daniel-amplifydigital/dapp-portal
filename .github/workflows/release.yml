@@ -62,8 +62,8 @@ jobs:
         with:
           push: true
           tags: |
-            matterlabs/dapp-portal:latest
-            matterlabs/dapp-portal:${{ needs.publish.outputs.releaseVersion }}
+            danielamplify/dapp-portal:latest
+            danielamplify/dapp-portal:${{ needs.publish.outputs.releaseVersion }}
           file: Dockerfile
           no-cache: true
 
