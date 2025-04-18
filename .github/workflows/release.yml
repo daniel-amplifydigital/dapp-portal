@@ -63,7 +63,7 @@ jobs:
           push: true
           tags: |
             danielamplify/dapp-portal:latest
-            danielamplify/dapp-portal:${{ needs.publish.outputs.releaseVersion }}
+            # danielamplify/dapp-portal:${{ needs.publish.outputs.releaseVersion }}
           file: Dockerfile
           no-cache: true
 
